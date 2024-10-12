@@ -51,6 +51,6 @@ function Production() {
     ))}
     </div>
   )
-}
+} 
  
 export default Production                                         
