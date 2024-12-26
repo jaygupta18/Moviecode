@@ -14,10 +14,11 @@ function App() {
     <Header/>
     <Slider/>
     <Production/>
-   <GenreMovieList/>
+    <GenreMovieList/>
     
     </>
   )
 }
 
-export default App
+export default App 
+ 

@@ -14,6 +14,6 @@ function GenreMovieList() {
         ))}
     </div>
   )
-}
-
-export default GenreMovieList
+} 
+  
+export default GenreMovieList 

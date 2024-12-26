@@ -10,5 +10,5 @@ function HeaderItem({name,Icon}) {
     </div>
   )
 }
-
+ 
 export default HeaderItem 

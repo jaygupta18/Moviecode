@@ -4,11 +4,11 @@ import { HiHome,
     HiMagnifyingGlass,
     HiStar,
     HiPlayCircle,
-    HiTv } from "react-icons/hi2";
+    HiTv } from "react-icons/hi2"; 
 import { HiPlus,HiDotsVertical } from "react-icons/hi"; 
 import HeaderItem from './HeaderItem'; 
 function Header() {
-    const [toggle,setToggle]=useState(false);
+    const [toggle,setToggle]=useState(false); 
     const menu=[
         {
             name:'HOME',
@@ -39,8 +39,10 @@ function Header() {
   return (
     <div className='flex items-center justify-between p-5'> 
         <div className='flex  gap-8 items-center'> 
-        <img src={logo2} className='w-[40px] 
-        md:w-[115px] object-cover bg-transparent text-white ' />
+        {/* <img src={logo2} className='w-[40px] 
+        md:w-[115px] object-cover bg-transparent text-white ' /> */}
+        {/* <h2 className='w-[40px] 
+        md:w-[115px] object-cover bg-transparent font-bold text-white'>SiteX</h2> */}
         <div className='hidden md:flex gap-8 '> 
         {menu.map((item)=>(  
             <HeaderItem name={item.name} Icon={item.icon} />
@@ -66,5 +68,5 @@ function Header() {
     </div>
   )
 }
-
+          
 export default Header 
